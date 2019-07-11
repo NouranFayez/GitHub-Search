@@ -1,0 +1,46 @@
+<div class="container">
+    <div class="row mt-3 bg-light text-dark justify-content-center text-center">
+        <div class="col-12 col-md-5 pt-3 pb-3">
+            <img src='{{this.singleRepo.owner.avatar_url}}' class="img-fluid">
+            
+        </div>
+        <div class="col-12 col-md-7 pt-3 pb-3">
+            <table class="table table-bordered table-striped table-light">
+                <tbody>
+                    <tr>
+                        <th>#</th>
+                        <td>{{this.singleRepo.id}}</td>
+                    </tr>
+                    <tr>
+                        <th>Name</th>
+                        <td>{{this.singleRepo.name}}</td>
+                    </tr>
+                    <tr>
+                        <th>Full Name</th>
+                        <td>{{this.singleRepo.full_name}}</td>     
+                    </tr>
+                    <tr>
+                            <th>Stargazers Count:</th>
+                            <td>{{this.singleRepo.stargazers_count }}</td>
+                            
+                    </tr>
+                    <tr>
+                            <th>Forks Count:</th>
+                            <td> {{this.singleRepo.forks_count}} </td>
+                            
+                    </tr>
+                    <tr>
+                            <th>Description</th>
+                            <td>{{this.singleRepo.description}}</td>
+                    </tr>
+                    <tr>
+                        <th>Size:</th>
+                        <td>{{this.singleRepo.size}}</td>
+                    </tr>
+                </tbody>
+
+            </table>
+            <a  routerLink="home" class="btn btn-dark ">Back To Home</a>
+        </div>
+    </div>
+</div>

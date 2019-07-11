@@ -1,0 +1,10 @@
+
+section{
+    background-color: black;
+    color: white;
+}
+img{
+    width: 50%;
+    height: 6rem;
+}
+input{background-color: #eee; margin-bottom: 2rem}
