@@ -8,7 +8,7 @@ import { MainComponent } from './features/main/main.component';
 const routes: Routes = [
   {path: '' , component:MainComponent},
   {path: 'home' ,redirectTo:'' ,pathMatch:'full'},
-  { path:'details/:login/:name' , component:DetailsComponent},
+  {path:'details/:login/:name' , component:DetailsComponent},
 ];
 
 @NgModule({
